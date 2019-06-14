@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49404" started-at="2019-06-05T16:57:10Z" finished-at="2019-06-05T16:58:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49404" started-at="2019-06-05T16:57:10Z" finished-at="2019-06-05T16:58:00Z">
+      <class name="com.ebay.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.LoginPageTest@523884b2]" name="setUp" is-config="true" duration-ms="9202" started-at="2019-06-05T12:57:32Z" finished-at="2019-06-05T12:57:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLogo()[pri:1, instance:com.ebay.qa.testcases.LoginPageTest@523884b2]" name="validateLogo" duration-ms="107" started-at="2019-06-05T12:57:41Z" finished-at="2019-06-05T12:57:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.LoginPageTest@523884b2]" name="tearDown" is-config="true" duration-ms="2647" started-at="2019-06-05T12:57:41Z" finished-at="2019-06-05T12:57:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.LoginPageTest@523884b2]" name="setUp" is-config="true" duration-ms="8630" started-at="2019-06-05T12:57:44Z" finished-at="2019-06-05T12:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSignIn()[pri:2, instance:com.ebay.qa.testcases.LoginPageTest@523884b2]" name="validateSignIn" duration-ms="4090" started-at="2019-06-05T12:57:52Z" finished-at="2019-06-05T12:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.LoginPageTest@523884b2]" name="tearDown" is-config="true" duration-ms="3424" started-at="2019-06-05T12:57:56Z" finished-at="2019-06-05T12:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.qa.testcases.LoginPageTest -->
+      <class name="com.ebay.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@5b275dab]" name="setUp" is-config="true" duration-ms="15810" started-at="2019-06-05T12:57:10Z" finished-at="2019-06-05T12:57:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="dropDown()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@5b275dab]" name="dropDown" duration-ms="1936" started-at="2019-06-05T12:57:26Z" finished-at="2019-06-05T12:57:28Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.ebay.qa.testcases.HomePageTest.dropDown(HomePageTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ebay.qa.testcases.HomePageTest@5b275dab]" name="tearDown" is-config="true" duration-ms="3497" started-at="2019-06-05T12:57:28Z" finished-at="2019-06-05T12:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.qa.testcases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
